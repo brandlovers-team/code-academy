@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("Hello World")
+	fmt.Println("Hello World")
+
+	fmt.Println(soma(6, 5))
 }
 
-// Teste
+func soma(a int, b int) int {
+	return a + b
+}
